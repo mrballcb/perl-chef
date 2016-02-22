@@ -25,5 +25,7 @@ default['perlbrew']['perls'] = []
 # default command line options for "perlbrew install" if no LWRP options
 # attribute is given
 default['perlbrew']['install_options'] = ''
+# Allow user to force perlbrew_perl provider to retry if fails, default 0
+default['perlbrew']['perlbrew_perl_retries'] = 0
 default['perlbrew']['cpanm_options'] = ''
 default['perlbrew']['self_upgrade'] = true

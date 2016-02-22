@@ -32,6 +32,7 @@ Attributes
 * `node['perlbrew']['install_options'] = ''` - A string of command line options for `perlbrew install`, e.g. `-D usethreads` for building all perls with threads
 * `node['perlbrew']['cpanm_options'] = ''` - A string of command line options for `cpanm`, e.g. `--notest` for installing modules without running tests
 * `node['perlbrew']['self_upgrade'] = true` - Set to false if you don't want perlbrew upgraded to the latest version automatically
+* `node['perlbrew']['perlbrew_perl_retries'] = ''` - How many times to allow `perlbrew_perl` provider to retry on failure, default 0
 
 Recipes
 =======
